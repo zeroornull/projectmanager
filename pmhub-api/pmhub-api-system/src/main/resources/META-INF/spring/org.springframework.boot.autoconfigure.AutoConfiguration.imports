@@ -1,0 +1,3 @@
+io.github.zeroornull.pmhub.api.factory.RemoteUserFallbackFactory
+io.github.zeroornull.pmhub.api.factory.RemoteLogFallbackFactory
+io.github.zeroornull.pmhub.api.factory.RemoteFileFallbackFactory

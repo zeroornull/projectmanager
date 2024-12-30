@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>io.github.zeroornull.pmhub-cloud</groupId>
+        <artifactId>pmhub</artifactId>
+        <version>0.0.1</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <modules>
+        <module>pmhub-base-log</module>
+        <module>pmhub-base-core</module>
+        <module>pmhub-base-redis</module>
+        <module>pmhub-base-seata</module>
+        <module>pmhub-base-swagger</module>
+        <module>pmhub-base-security</module>
+        <module>pmhub-base-sensitive</module>
+        <module>pmhub-base-datascope</module>
+        <module>pmhub-base-datasource</module>
+    </modules>
+
+    <artifactId>pmhub-base</artifactId>
+    <packaging>pom</packaging>
+
+    <description>
+        pmhub-base通用模块
+    </description>
+
+</project>
